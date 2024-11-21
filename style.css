@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: hidden;
+	background: #111;
+}
+span{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: url(img.webp);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	pointer-events: none;
+}
